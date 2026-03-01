@@ -33,12 +33,12 @@ interface GuestMessage {
 // --- Constants ---
 const WEDDING_DATE = new Date('2026-06-20T12:00:00');
 const GROOM_ACCOUNTS: BankAccount[] = [
-  { owner: '김철수', bank: '신한은행', number: '110-123-456789' },
-  { owner: '김영희 (부)', bank: '국민은행', number: '123456-01-123456' }
+  { owner: '한성민', bank: '국민은행', number: '831402-01-094905' },
+  { owner: '한욱 (부)', bank: '국민은행', number: '123456-01-123456' }
 ];
 const BRIDE_ACCOUNTS: BankAccount[] = [
-  { owner: '이영희', bank: '우리은행', number: '1002-123-456789' },
-  { owner: '이갑수 (부)', bank: '농협은행', number: '302-1234-5678-90' }
+  { owner: '추연정', bank: '우리은행', number: '1002-123-456789' },
+  { owner: '추성운 (부)', bank: '농협은행', number: '302-1234-5678-90' }
 ];
 
 // --- Components ---
@@ -269,14 +269,14 @@ export default function App() {
           
           <div className="pt-10 space-y-2">
             <div className="flex justify-center items-center gap-4">
-              <span className="text-sm">김판수 · 박말순</span>
+              <span className="text-sm">한욱 · 양현정</span>
               <span className="text-xs text-gray-400">의 장남</span>
-              <span className="font-medium">철수</span>
+              <span className="font-medium">성민</span>
             </div>
             <div className="flex justify-center items-center gap-4">
-              <span className="text-sm">이갑수 · 최순자</span>
+              <span className="text-sm">추성운 · 이병선</span>
               <span className="text-xs text-gray-400">의 장녀</span>
-              <span className="font-medium">영희</span>
+              <span className="font-medium">연정</span>
             </div>
           </div>
         </div>
@@ -349,8 +349,7 @@ export default function App() {
               <div className="w-1 h-1 bg-sage rounded-full"></div> 지하철 안내
             </h4>
             <p className="text-xs text-gray-600 leading-relaxed">
-              2호선 강남역 12번 출구 도보 5분 거리<br/>
-              9호선 신논현역 4번 출구 도보 10분 거리
+              탄방역 4번 출구 도보 5분 거리<br/>
             </p>
           </div>
           <div>
