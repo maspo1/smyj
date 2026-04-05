@@ -60,3 +60,28 @@
 .accordion-content.open {
   max-height: 200px;
 }
+
+/* Infinite horizontal marquee for guestbook */
+@keyframes marquee-ticker {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-25%); }  /* 4 copies → move 1 copy */
+}
+
+.marquee-ticker {
+  display: flex;
+  width: max-content;
+  animation: marquee-ticker linear infinite;
+}
+
+.marquee-ticker:hover {
+  animation-play-state: paused;
+}
+
+/* Hide scrollbar for gallery swipe */
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
