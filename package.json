@@ -11,7 +11,7 @@
     "clean": "rm -rf dist",
     "lint": "tsc --noEmit",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -r https://github.com/maspo1/smyj.git -d build"
   },
   "dependencies": {
     "@google/genai": "^1.29.0",
